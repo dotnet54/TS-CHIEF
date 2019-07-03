@@ -3,6 +3,8 @@
 # TS-CHIEF 
 An effective and scalable distance-based classifier for time series classification. This repostitory contains the source code for the time series classification algorithm Proximity Forest, published in the paper [TS-CHIEF](https://arxiv.org/abs/1906.10329)
 
+NOTE - some refactoring is in progress to cleap up the code, so this read me will be updated soon
+
 ## Abstract 
 Time Series Classification (TSC) has seen enormous progress over the last two decades. HIVE-COTE (Hierarchical Vote Collective of Transformation-based Ensembles) is the current state of the art in terms of classification accuracy. HIVE-COTE recognizes that time series are a specific data type for which the traditional attribute-value representation, used predominantly in machine learning, fails to provide a relevant representation. HIVE-COTE combines multiple types of classifiers: each extracting information about a specific aspect of a time series, be it in the time domain, frequency domain or summarization of intervals within the series. However, HIVE-COTE (and its predecessor, FLAT-COTE) is often infeasible to run on even modest amounts of data. For instance, training HIVE-COTE on a dataset with only 1,500 time series can require 8 days of CPU time. It has polynomial runtime w.r.t training set size, so this problem compounds as data quantity increases. We propose a novel TSC algorithm, TS-CHIEF, which is highly competitive to HIVE-COTE in accuracy, but requires only a fraction of the runtime. TS-CHIEF constructs an ensemble classifier that integrates the most effective embeddings of time series that research has developed in the last decade. It uses tree-structured classifiers to do so efficiently. We assess TS-CHIEF on 85 datasets of the UCR archive, where it achieves state-of-the-art accuracy with scalability and efficiency. We demonstrate that TS-CHIEF can be trained on 130k time series in 2 days, a data quantity that is beyond the reach of any TSC algorithm with comparable accuracy.
 
@@ -62,7 +64,7 @@ If an option is not specified in the command line, a default setting is used, wh
 
 
 The authors would like to thank Prof. Eamonn Keogh and all the people who have contributed to the UCR time series classification archive. We also would like to acknowledge the use of source code freely available at http://www.timeseriesclassification.com and thank Prof. Anthony Bagnall and
-other contributors of the project. We also acknowledge the use of source code freely provided by the original author of BOSS algorithm, Dr. Patrick Sch¨afer. Finally, we acknowledge the use of two Java libraries (Trove and HPPC), which was used to optimize the implementation of our source code.
+other contributors of the project. We also acknowledge the use of source code freely provided by the original author of BOSS algorithm, Dr. Patrick SchÂ¨afer. Finally, we acknowledge the use of two Java libraries (Trove and HPPC), which was used to optimize the implementation of our source code.
 
 
 YourKit is supporting Proximity Forest open source project with its full-featured Java Profiler.
