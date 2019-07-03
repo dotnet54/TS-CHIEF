@@ -1,7 +1,7 @@
 
 
 # TS-CHIEF 
-An effective and scalable distance-based classifier for time series classification. This repostitory contains the source code for the time series classification algorithm Proximity Forest, published in the paper [TS-CHIEF](https://arxiv.org/abs/1906.10329)
+An effective and scalable distance-based classifier for time series classification. This repostitory contains the source code for the time series classification algorithm TS-CHIEF, published in the paper [TS-CHIEF](https://arxiv.org/abs/1906.10329)
 
 NOTE - some refactoring is in progress to cleap up the code, so this read me will be updated soon
 
