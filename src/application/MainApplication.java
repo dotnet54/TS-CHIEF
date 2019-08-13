@@ -50,7 +50,7 @@ public class MainApplication {
 					"v010000.beta first release - code cleaning in progress; hence beta",
 					"build_at=3/7/2019");
 			
-			args = dev_args;
+			//args = dev_args;
 
 			AppContext.cmd_args = args; //store 
 			System.out.print("ARGS:");

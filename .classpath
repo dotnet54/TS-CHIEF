@@ -14,7 +14,6 @@
 	<classpathentry kind="lib" path="lib/reflectasm-1.11.3.jar"/>
 	<classpathentry kind="lib" path="lib/peersim-1.0.4.jar"/>
 	<classpathentry kind="lib" path="lib/commons-io-2.6.jar"/>
-	<classpathentry combineaccessrules="false" kind="src" path="/bakeoff"/>
 	<classpathentry kind="lib" path="lib/hamcrest-2.1.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
