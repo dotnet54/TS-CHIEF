@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="SshConfigs">
+    <configs>
+      <sshConfig authType="PASSWORD" host="m3.massive.org.au" id="cb491dbb-5f7c-40f6-aac7-464ed7b21791" port="22" customName="m3_chief" nameFormat="CUSTOM" username="ashi32">
+        <option name="customName" value="m3_chief" />
+      </sshConfig>
+      <sshConfig host="43.240.97.102" id="a09c6191-9801-4547-a06a-1d9f7ff80b4c" keyPath="C:\Users\shifaz\.ssh\NectarKey_Shifaz_filezilla.ppk" port="22" customName="nc1_11" nameFormat="CUSTOM" username="ubuntu">
+        <option name="customName" value="nc1_11" />
+      </sshConfig>
+      <sshConfig authType="PASSWORD" host="m3-dtn.massive.org.au" id="3f0532ba-9b7f-4b02-95f1-58205582ade2" port="22" customName="m3_knn" nameFormat="CUSTOM" username="ashi32">
+        <option name="customName" value="m3_knn" />
+      </sshConfig>
+      <sshConfig host="144.6.231.147" id="e3665794-79ad-4f69-a654-dc28946a1d68" keyPath="C:\Users\shifaz\.ssh\NectarKey_Shifaz_filezilla.ppk" port="22" customName="nc2_147" nameFormat="CUSTOM" username="ubuntu">
+        <option name="customName" value="nc2_147" />
+      </sshConfig>
+      <sshConfig host="115.146.87.21" id="a0eb5c49-91f0-4e54-8676-057c46fc1f18" keyPath="C:\Users\shifaz\.ssh\NectarKey_Shifaz_filezilla.ppk" port="22" customName="nc3_21" nameFormat="CUSTOM" username="ubuntu">
+        <option name="customName" value="nc3_21" />
+      </sshConfig>
+    </configs>
+  </component>
+</project>

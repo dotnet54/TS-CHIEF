@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="30326a84-5ed4-45be-a473-5c5160c6c1e9" name="m3_chief" url="http://m3.massive.org.au">
+        <fileTransfer host="m3.massive.org.au" port="22" rootFolder="/home/ashi32/nc23_scratch/shifaz/chief/" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="c68d4074-769b-4998-8c09-83cc9cc64aac" name="nc1_11" url="http://43.240.97.102">
+        <fileTransfer host="43.240.97.102" port="22" privateKey="C:\Users\shifaz\.ssh\NectarKey_Shifaz_filezilla.ppk" rootFolder="/home/ubuntu/shifaz/knn" accessType="SFTP" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="5a6e2fb8-3e4a-4fdf-ad2d-a57ad04f8e65" name="m3_knn" url="http://m3-dtn.massive.org.au">
+        <fileTransfer host="m3-dtn.massive.org.au" port="22" rootFolder="/home/ashi32/nc23_scratch/shifaz/knn/" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="3d5a0d26-9b78-4602-8156-bac2a9d345b5" name="m3" url="http://m3.massive.org.au">
+        <fileTransfer host="m3.massive.org.au" port="22" rootFolder="/home/ashi32/nc23_scratch/shifaz/" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="684b7fd2-ae6c-43b2-a215-a2ba469b33b7" name="m3_data" url="http://m3-dtn.massive.org.au">
+        <fileTransfer host="m3-dtn.massive.org.au" port="22" rootFolder="/home/ashi32/nc23_scratch/shifaz/" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="2ad71fd7-ad74-4a99-8654-62e4b58dd1cd" name="nc2_147" url="http://144.6.231.147">
+        <fileTransfer host="144.6.231.147" port="22" privateKey="C:\Users\shifaz\.ssh\NectarKey_Shifaz_filezilla.ppk" rootFolder="/home/ubuntu/shifaz/knn" accessType="SFTP" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="2adcf8f7-0a39-4c5a-8df6-02fe1c674fc9" name="nc3_21" url="http://115.146.87.21">
+        <fileTransfer host="115.146.87.21" port="22" privateKey="C:\Users\shifaz\.ssh\NectarKey_Shifaz_filezilla.ppk" rootFolder="/home/ubuntu/shifaz/knn" accessType="SFTP" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
