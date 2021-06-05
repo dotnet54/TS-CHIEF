@@ -74,7 +74,16 @@ If an option is not specified in the command line, a default setting is used, wh
 The authors would like to thank Prof. Eamonn Keogh and all the people who have contributed to the UCR time series classification archive. We also would like to acknowledge the use of source code freely available at http://www.timeseriesclassification.com and thank Prof. Anthony Bagnall and
 other contributors of the project. We also acknowledge the use of source code freely provided by the original author of BOSS algorithm, Dr. Patrick Sch¨afer. Finally, we acknowledge the use of two Java libraries (Trove and HPPC), which was used to optimize the implementation of our source code.
 
+[![YourKit Profiler](https://www.yourkit.com/images/yklogo.png)](https://www.yourkit.com/java/profiler/)
 
-YourKit is supporting Proximity Forest open source project with its full-featured Java Profiler.
-YourKit is the creator of innovative and intelligent tools for profiling Java and .NET applications. http://www.yourkit.com 
+**YourKit Profiler**
+
+We would like to acknowledge that we Yourkit Java Profiler to measure the performance of our implementation. Yourkit is an extremely good tool to understand Java performance bottlenecks such as memory usage, cpu usage, and multithreading issues.
+
+YourKit supports open source projects with innovative and intelligent tools
+for monitoring and profiling Java and .NET applications.
+YourKit is the creator of <a href="https://www.yourkit.com/java/profiler/">YourKit Java Profiler</a>,
+<a href="https://www.yourkit.com/.net/profiler/">YourKit .NET Profiler</a>,
+and <a href="https://www.yourkit.com/youmonitor/">YourKit YouMonitor</a>.
+
 
