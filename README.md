@@ -68,6 +68,10 @@ Separate each command line option with an `=`. Available options are
 
 If an option is not specified in the command line, a default setting is used, which can be found in the `AppContext.java`class.
 
+# Results
+
+Latest results on UEA/UCR 2018 archive with 30 resamples can be obtained from http://timeseriesclassification.com./results.php
+
 # Support
 
 
